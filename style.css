@@ -1,0 +1,480 @@
+@font-face {
+  font-family: "Inika";
+  src: local("Inika"), url(/fonts/Inika-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Inter";
+  src: local("Inter-bold"), url(/fonts/Inter-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Inter-regular";
+  src: local("Inter-regular"), url(/fonts/Inter.ttf);
+}
+
+body {
+  font-family: "Inika";
+  margin: 0;
+}
+
+#wrapper {
+  width: 1440px;
+  margin: 0 auto;
+  background-color: aqua;
+}
+
+header {
+  box-sizing: border-box;
+  display: inline-flex;
+  height: 134px;
+  padding: 42px 109px 42px 111px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  background-color: #edf2ec;
+}
+
+div.navbar {
+  width: 1220px;
+  height: 50px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  width: 452px;
+  height: 50px;
+  flex-shrink: 0;
+}
+
+.navbar ul {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navbar li {
+  display: inline;
+}
+
+.welcome {
+  box-sizing: border-box;
+  width: 1440px;
+  height: 532px;
+  padding: 62px 109px 62.642px 109px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  background: #edf2ec;
+}
+
+.about {
+  box-sizing: border-box;
+  display: flex;
+  width: 1440px;
+  height: 666px;
+  padding: 93px 109px 94px 109px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  background: #fff;
+}
+
+.service {
+  box-sizing: border-box;
+  display: flex;
+  width: 1440px;
+  padding: 40px 109px 121px 109px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 90px;
+  background: #edf2ec;
+}
+
+.price {
+  box-sizing: border-box;
+  display: flex;
+  width: 1440px;
+  padding: 40px 109px 115px 109px;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+}
+
+.contact-us {
+  box-sizing: border-box;
+  width: 1440px;
+  height: 550px;
+  padding: 60px 109px 0px 109px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+  background: #edf2ec;
+}
+
+.contact-us h2 {
+  width: 195px;
+  height: 51px;
+  margin: 0;
+  flex-shrink: 0;
+  color: #499a18;
+
+  font-family: "Inika";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.section-containers {
+  width: 1222px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image-leafs {
+  width: 448.795px;
+  height: 407.358px;
+  flex-shrink: 0;
+}
+
+.welcome-text-container {
+  max-width: 549px;
+}
+
+.welcome-text p {
+  color: #636060;
+  font-family: "Inter-regular";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px;
+}
+
+.welcome button {
+  width: 158px;
+  height: 44px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 2px solid #e06733;
+  background: rgba(224, 103, 51, 0);
+}
+
+.welcome-text {
+  width: 605px;
+  height: 350px;
+  flex-shrink: 0;
+}
+
+#houseplant {
+  width: 464px;
+  height: 479px;
+  flex-shrink: 0;
+  border: 1px solid #000;
+  background: url("media/img/about_us/about_us.png"),
+    lightgray 50% / cover no-repeat;
+  background-size: 464px 479px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+#service-content {
+  width: 1007px;
+  height: 94px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.services-buttons {
+  width: 559px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.services-buttons button {
+  width: 161px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid #e06733;
+  background: rgba(224, 103, 51, 0);
+  color: #e06733;
+  font-family: "Inika";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.services {
+  width: 1222px;
+  min-height: 955px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.service-item {
+  width: 330px;
+  height: 450px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.services img {
+  height: 350px;
+  width: 329px;
+  border-radius: 20px 20px 0 0;
+}
+
+.rectangle {
+  width: 330px;
+  height: 100px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #e3e1d5;
+  border-radius: 0 0 20px 20px;
+}
+
+.price-container {
+  width: 1222px;
+  height: 405px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.prices {
+  width: 332px;
+  height: 391px;
+  flex-shrink: 0;
+}
+
+.rectangle-price {
+  width: 332px;
+  height: 282px;
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  border: 1px solid #e3e1d5;
+  border-radius: 20px;
+}
+
+.rectangle-price select {
+  width: 250px;
+  height: 50.002px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  color: #000;
+  font-family: "Inter";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  background: #edf2ec;
+}
+
+.call-us-container {
+  max-width: 452px;
+  min-height: 391px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 39px;
+}
+
+.call-us {
+  text-align: right;
+}
+
+.call-us h2 {
+  color: #000;
+  text-align: right;
+  font-family: "Inter";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+.call-us button {
+  width: 162px;
+  height: 50.002px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid #e06733;
+  background: rgba(224, 103, 51, 0);
+  color: #e06733;
+  text-align: center;
+  font-family: "Inika";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.contact-decoration {
+  width: 1220px;
+  position: relative;
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.contact-decoration img {
+  position: absolute;
+  top: -58px;
+}
+
+.contact-decoration select {
+  width: 450px;
+  height: 50px;
+  flex-shrink: 0;
+  border: 0;
+  color: #717171;
+  font-family: "Inter";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 200% */
+  letter-spacing: 1px;
+  background: #d6e7d2;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  top: 37px;
+  left: 772px;
+}
+
+h1 {
+  color: #717171;
+  font-family: "Inter";
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+.welcome-text h2 {
+  width: 463px;
+  height: 102px;
+  flex-shrink: 0;
+  color: #e06733;
+  font-family: Inika;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.service h2 {
+  width: 306px;
+  height: 94px;
+  flex-shrink: 0;
+  color: #499a18;
+  font-family: "Inika";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.services h3 {
+  height: 24px;
+  margin: 0;
+  flex-shrink: 0;
+  color: #e06733;
+  font-family: "Inter-regular";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.services p {
+  margin: 0;
+  color: #717171;
+  font-family: "Inter-regular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.prices h2 {
+  color: #000;
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: "Inika";
+  color: #e06733;
+}
+
+span.green {
+  color: #499a18;
+}
+
+footer {
+  box-sizing: border-box;
+  display: flex;
+  width: 1440px;
+  height: 130px;
+  padding: 40px 109px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  font-family: "Inter-regular";
+  background-color: #ffffff;
+}
+
+.footer-content {
+  width: 1222px;
+  height: 50px;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-data {
+  display: inline-flex;
+  padding-right: 0px;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.social-list {
+  display: flex;
+  width: 188px;
+  height: 50px;
+  padding: 9px 0px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  flex-shrink: 0;
+}
